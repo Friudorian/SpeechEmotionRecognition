@@ -1,5 +1,11 @@
 # Speech Emotion Recognition
 
+# Abstract
+Il progetto si presuppone lo scopo di ricercare quali feature audio siano piu rappresentative per un’interpretazione affettiva. Per questo e stato scelto un database molto usato in letteratura: il Berlin Database for Emotional speech, contenente frasi pronunciate da attori e
+categorizzate in 7 emozioni: gioia, rabbia, disgusto, paura, neutro, noia, tristezza. Da tali frasi sono state estratte varie feature, tra cui MFCC, pitch, root-mean-square energy e queste feature sono state valutate mediante diversi classificatori, con l’ulteriore scopo di paragonare le performance con la letteratura. In particolare sono stati usati K-NN, KNN dopo PCA e SVM con (kernel lineare e rbf) i quali hanno ottenuto performance (misurate mediante cross-validaton) interessanti (72,3% di accuracy di K-NN dopo PCA, 83,5% di accuracy di SVM con kernel lineare). In conclusione e stata sviluppata una rete neurale Multi-Layer Perceptron che ha raggiunto la performance di 89,3% accuracy.
+
+# Piccolissima guida alla repository
+
 Progetto dei corsi di Interazione Naturale e Modelli di Computazione Affettiva A.A. 2017/18
 
 La relazione è contenuta in SpeechEmotionRecognition.pdf.
