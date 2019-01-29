@@ -1,4 +1,7 @@
-# INMCA_Faleri
+# Speech Emotion Recognition
+
+Progetto dei corsi di Interazione Naturale e Modelli di Computazione Affettiva A.A. 2017/18
+
 La relazione è contenuta in SpeechEmotionRecognition.pdf.
 
 Il sistema è composto da 3 notebook jupyter:
