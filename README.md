@@ -4,6 +4,7 @@
 
 The project had the purpose of searching for which audio features were most representative for an emotional interpretation. For this reason, a database widely used in literature was chosen: the Berlin Database for Emotional speech, containing sentences pronounced by actors and categorized in 7 emotions: joy, anger, disgust, fear, neutral, boredom, sadness. From these sentences, various features have been extracted, including MFCC, pitch, root-mean-square energy and these features have been evaluated using different classifiers, with the additional purpose of comparing performance with literature. In particular, were used: K-NN, KNN after PCA and SVM (linear and RBF kernels) which obtained interesting performances (measured by cross-validation) (72.3% accuracy of K-NN after PCA, 83, 5% SVM accuracy with linear kernel). In conclusion, a Perceptron Multi-Layer neural network was developed, which achieved a performance of 89.3% accuracy.
 
+The project documentation is written in Italian.
 
 # Abstract
 Il progetto si presuppone lo scopo di ricercare quali feature audio siano piu rappresentative per un’interpretazione affettiva. Per questo e stato scelto un database molto usato in letteratura: il Berlin Database for Emotional speech, contenente frasi pronunciate da attori e
